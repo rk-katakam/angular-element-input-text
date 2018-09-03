@@ -1,0 +1,30 @@
+#angular-element {
+  padding: 10px;
+  border: 3px solid #1c7497;
+  border-radius: 5px;
+}
+
+#angular-element-input {
+  border: 2px solid #456879;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+#angular-element-button {
+  background-color: #1c7497;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+  border-radius: 30px;
+  background-clip: padding-box;
+  webkit-transition: background .3s ease-in-out;
+  moz-transition: background .3s ease-in-out;
+  o-transition: background .3s ease-in-out;
+  ms-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+  line-height: 32px;
+}

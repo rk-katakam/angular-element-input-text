@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Angular Elements Input</title>
+</head>
+
+<body>
+    <div>Hello From Normal Html</div>
+    <div id="angular-text"></div>
+    <angular-element-input-text></angular-element-input-text>
+</body>
+<script src="angular-element-input-text.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', inputElementBindEvent, false);
+    function inputElementBindEvent() {
+        document.getElementById('angular-element-button').removeEventListener('click', function () { })
+        document.getElementById('angular-element-button').addEventListener('click', function () {
+            console.log('3', document.getElementById('angular-element-input').value);
+            document.getElementById('angular-text').innerHTML = document.getElementById('angular-element-input').value;
+        })
+
+    }
+</script>
+
+</html>
