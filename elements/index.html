@@ -8,7 +8,7 @@
 <body>
     <div>Hello From Normal Html</div>
     <div id="angular-text"></div>
-    <angular-element-input-text></angular-element-input-text>
+    <angular-element-input-text text="Hello"></angular-element-input-text>
 </body>
 <script src="angular-element-input-text.js"></script>
 <script>
@@ -19,7 +19,6 @@
             console.log('3', document.getElementById('angular-element-input').value);
             document.getElementById('angular-text').innerHTML = document.getElementById('angular-element-input').value;
         })
-
     }
 </script>
 

@@ -28,6 +28,7 @@
     "core-js": "^2.5.4",
     "document-register-element": "^1.11.0",
     "fs-extra": "^7.0.0",
+    "http-server": "^0.11.1",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
   },
